@@ -27,7 +27,7 @@ public class Database {
         heroList.add(spiderman);
     }
     public void addHero(Hero hero) {
-        //herolist[count++] = hero;
+
 
         heroList.add(hero);
 
@@ -48,16 +48,6 @@ public class Database {
 
 
 
-/*public ArrayList<Superhero> searchHeroByName(String name){
-        ArrayList<Superhero> heroList = new ArrayList<>();
-        for (Superhero hero: superheroes) {
-            if(hero.getName().toLowerCase().contains(name.toLowerCase()) ||
-                    hero.getRealName().toLowerCase().contains(name.toLowerCase())){
-                heroList.add(hero);
-            }
-        }
-        return heroList;
-    } */
 
     @Override
     public String toString() {

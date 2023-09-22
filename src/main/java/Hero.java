@@ -42,6 +42,6 @@ public class Hero {
                 "Superpower: " + superpower + "\n" +
                 "Year of creation: " + yearCreated + "\n" +
                 "Is a Human: " + isHuman + "\n" +
-                "Strenght: " + strength + "\n");
+                "Strength: " + strength + "\n");
     }
 }
